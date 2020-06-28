@@ -81,14 +81,20 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./external/index.js");
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
+/******/ ({
+
+/***/ "./external/index.js":
+/*!***************************!*\
+  !*** ./external/index.js ***!
+  \***************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-console.log("hello from webpack")
+eval("console.log(\"hello from webpack\")\n\n//# sourceURL=webpack:///./external/index.js?");
 
 /***/ })
-/******/ ]);
+
+/******/ });
