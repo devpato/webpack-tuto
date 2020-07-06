@@ -1,0 +1,9 @@
+{
+    "presets": [
+        "@babel/preset-env"
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime",
+    ]
+}
+//npm i --save-dev --save-exact @babel/core babel-loader @babel/preset-env
